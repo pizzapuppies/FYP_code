@@ -20,7 +20,7 @@ This model got an average of 40% on 10 runs
 *The predictions are suspect, when compared to the real data the delta is not neglegable. If their is any learnable difference then the impedence lib could be just mudding up the data  
 
 
-**
+** currently the testing split is random, this may not be ideal. idk i think some dataset selectivity is a good idea
 
 
 $ another thing to explore is the config of the CNN i tried adding layers and moving their order around. It showed little to no difference, at least neglegable differance considering that the randomization on rerun is huge rangeing from 20% accuracy to 100 % 
