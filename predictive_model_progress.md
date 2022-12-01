@@ -19,8 +19,13 @@ This model got an average of 40% on 10 runs
 
 *The predictions are suspect, when compared to the real data the delta is not neglegable. If their is any learnable difference then the impedence lib could be just mudding up the data  
 
+Test 4 : [raw data in complex form]:
+model got 49% on 10 runs
 
-** currently the testing split is random, this may not be ideal. idk i think some dataset selectivity is a good idea
+
+Meet with Desmond and he said that i need to hypertune the parameters ans cross validate the model. both should be easy cuz tenserflow
+
+~~currently the testing split is random, this may not be ideal. idk i think some dataset selectivity is a good idea [tried using a single concentration didn't work]~~
 
 
 $ another thing to explore is the config of the CNN i tried adding layers and moving their order around. It showed little to no difference, at least neglegable differance considering that the randomization on rerun is huge rangeing from 20% accuracy to 100 % 
